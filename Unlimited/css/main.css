@@ -1,0 +1,197 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("/Unlimited/img/faixa.png");
+    background-position-y: 119px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.fixo {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #000218;
+}
+
+.logo {
+    padding: 10px;
+    height: 40px;
+    width: 60%;
+    margin-left: 165px;
+    float: left;
+}
+
+.logo h1 {
+    color: #69b3e2;
+    position: relative;
+    top: -23px;
+    font-size: 2em;
+}
+
+.logo h1:hover {
+    cursor: default;
+}
+
+.redes-sociais {
+    float: left;
+    width: 20%;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    top: -5px;
+    margin-left: 15px;
+}
+
+.redes-sociais img {
+    width: 40px;
+}
+
+.header-02 {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.menu-urls {
+    background-color: white;
+    border-bottom: 2px solid #000000FF;
+    margin-top: -20px;
+    height: 60px;
+}
+
+.urls {
+    display: inline-block;
+    color: #8b8b8b;
+    text-transform: uppercase;
+    height: 35px;
+    margin-left: 7px;
+    margin-right: 15px;
+}
+
+.urls a {
+    color: #8b8b8b;
+    text-decoration: none;
+}
+
+.urls:hover {
+    border-bottom: 2px solid #69b3e2;
+}
+
+.urls a:hover {
+    color: #69b3e2;
+    cursor: pointer;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+}
+
+.imagem {
+    height: 252.9px;
+    margin-bottom: 175px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #9a9a9a;
+}
+
+.content p strong {
+    color: #818181;
+}
+
+.conteudo {
+    margin-bottom: 100px;
+}
+
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.perfis {
+    margin-left: 40px;
+    width: 80%;
+    height: 100px;
+}
+
+.perfis img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+.perfis table {
+    list-style: none;
+    text-align: left;
+    border-spacing: 15px;
+}
+
+img, .informacoes {
+    display: inline-block;
+}
+
+.informacoes h3, h4, h5 {
+    margin: 0px;
+}
+
+.informacoes h3 {
+    color: #818181;
+    margin-top: -80px;
+}
+
+.informacoes h4 {
+    color: rgb(97, 90, 133);
+}
+
+.informacoes h5 {
+    color: #9a9a9a;
+}
+
+.nome {
+    text-transform: uppercase;
+}
+
+.dev {
+    width: 20%;
+    height: 100px;
+    margin-left: 775px;
+    margin-top: -55px;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 75px;
+}
+
+#dev {
+    display: block;
+    margin-left: 90px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+.dev .informacoes {
+    margin-top: 80px;
+}
