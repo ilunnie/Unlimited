@@ -1,0 +1,256 @@
+body {
+    background-repeat: no-repeat;
+    background-image: url("/Unlimited/img/faixa.png");
+    background-position-y: 119px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.fixo {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #000218;
+}
+
+.logo {
+    padding: 10px;
+    height: 40px;
+    width: 55%;
+    margin-left: 165px;
+    float: left;
+}
+
+.logo h1 {
+    color: #69b3e2;
+    position: relative;
+    top: -23px;
+    font-size: 2em;
+}
+
+.logo h1:hover {
+    cursor: default;
+}
+
+.redes-sociais {
+    float: left;
+    width: 20%;
+}
+
+.redes-sociais ul li {
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    top: -5px;
+    margin-left: 15px;
+}
+
+.redes-sociais img {
+    width: 40px;
+}
+
+.header-02 {
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+.col-md-3 {
+    position: relative;
+    height: 44px;
+    margin-left: 17px;
+    margin-right: 10px;
+}
+
+.col-md-3 .pri{
+    visibility: hidden;
+    opacity: 0;
+}
+.col-md-3 .seg {
+    margin-top: 5px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.col-md-3 .tri {
+    margin-top: 5px;
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.col-md-3:hover .tri {
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+.col-md-3:hover{
+    border-bottom: 2px solid #69b3e2;
+}
+
+#menu {
+    display: inline-block;
+    height: 10%;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-urls {
+    background-color: white;
+    border-bottom: 2px solid #000000FF;
+    margin-top: -20px;
+    height: 60px;
+    padding-bottom: 9px;
+}
+
+.urls {
+    display: inline-block;
+    color: #505050;
+    text-transform: uppercase;
+    height: 35px;
+    margin-left: 7px;
+    margin-right: 5px;
+}
+
+.urls a {
+    color: #505050;
+    text-decoration: none;
+}
+
+.urls:hover {
+    border-bottom: 2px solid #69b3e2;
+}
+
+.urls a:hover {
+    color: #69b3e2;
+    cursor: pointer;
+}
+
+.col-100 {
+    width: 100%;
+    float: left;
+}
+
+.imagem {
+    height: 252.9px;
+    margin-bottom: 175px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h1 {
+    color: #505050;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.content p {
+    font-size: 20px;
+    color: #505050;
+}
+
+.content p strong {
+    color: #3a3a3a;
+}
+
+.conteudo {
+    margin-bottom: 35px;
+    box-shadow: 2px 2px 8px #000218;
+    background-color: #F0F8FF;
+    border-radius: 20px;
+}
+
+#conteudo{
+    padding: 20px;
+}
+
+#conteudo img{
+    opacity: 50%;
+}
+/* #sobre img{
+    opacity: 50%;
+    margin-top: -5px;
+} */
+
+.content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.perfis {
+    margin-left: 40px;
+    width: 80%;
+    height: 250px;
+}
+
+.perfis img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+.perfis table {
+    list-style: none;
+    text-align: left;
+    border-spacing: 15px;
+}
+
+img, .informacoes {
+    display: inline-block;
+}
+
+.informacoes h3, h4, h5 {
+    margin: 0px;
+}
+
+.informacoes h3 {
+    color: #505050;
+    margin-top: -80px;
+}
+
+.informacoes h4 {
+    color: rgb(97, 90, 133);
+}
+
+.informacoes h5 {
+    color: #3a3a3a;
+}
+
+.nome {
+    text-transform: uppercase;
+}
+
+.dev {
+    width: 20%;
+    height: 100px;
+    margin-left: 760px;
+    margin-top: -215px;
+}
+
+.foto {
+    border-radius: 50%;
+    width: 75px;
+}
+
+#dev {
+    display: block;
+    margin-left: 70px;
+    width: 20px;
+    margin-top: 0px;
+}
+
+.dev .informacoes {
+    margin-top: 80px;
+}
